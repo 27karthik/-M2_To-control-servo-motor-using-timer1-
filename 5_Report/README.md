@@ -15,9 +15,13 @@ To control Servo Motor Using Timer1 PWM technique and UART interface.
 • Servo Motor.
 # DESCRIPTION:
 Microchip's ATmega328 is an 8-bit, 28-pin AVR Microcontroller that uses RISC architecture and includes a 32KB flash-type programme memory.
+
 The Atmega328 microcontroller is found in the Arduino UNO, Arduino Pro Mini, and Arduino Nano boards.
+
 It can function at voltages ranging from 3.3 to 5.5 volts, but we usually choose 5 volts as a standard.
+
 Cost-effectiveness, low power consumption, programming lock for security, and true timer counter with independent oscillator are only a few of its outstanding qualities.
+
 It's most commonly found in Embedded Systems. Take a look at these Real-Life Embedded System Examples; we can design all of them with this Microcontroller.
 # DESCRIPTION:
 Timer-1 is configured as PWM to control the servo motor. Timer-1 is configured using TOV1,
@@ -28,7 +32,9 @@ The 16-bit Timer/Counter unit allows accurate program execution timing (event ma
 timing measurement.
 # Features:
 • True 16-bit design (i.e., allows 16-bit PWM)
+
 • Two independent output compare units
+
 • Double buffered output compare registers
 # TIMER0:
 Timer/Counter0 is a general purpose 8-bit Timer/Counter module, with two independent output compare units, and with
