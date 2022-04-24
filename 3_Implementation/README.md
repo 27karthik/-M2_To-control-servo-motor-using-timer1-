@@ -29,7 +29,7 @@ _delay_ms(40);
 }
  }
 }
-UART:
+# UART:
 #include "uart_hal.h"
 volatile static uint8_t rx_buffer[RX_BUFFER_SIZE] = {0};
 volatile static uint16_t rx_count = 0;
@@ -100,7 +100,7 @@ FILE uart_output = FDEV_SETUP_STREAM(uart_stream_byte, NULL, _FDEV_SETUP_WRITE);
 void stdio_init(void){
 stdout = &uart_output;
 }
-TIMER-1:
+# TIMER-1:
 #include "timer1_hal.h"
 volatile static uint8_t update_pwm_ready = 0;
 ISR(TIMER1_OVF_vect){
@@ -141,7 +141,7 @@ set = (((float)SEVRO_MAX-(float)SEVRO_MIN)*set) + (float)SEVRO_MIN;
 uint16_t piont = (uint16_t)set;
 update_pwm(piont);
 }
-TIMER-0:
+# TIMER-0:
 #include "timer0_hal.h"
 volatile static uint32_t millis_c = 0;
 ISR(TIMER0_COMPA_vect){
