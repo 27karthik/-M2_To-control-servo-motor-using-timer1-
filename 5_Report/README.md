@@ -36,8 +36,11 @@ PWM support. It allows accurate program execution timing (event management) and 
 # UART:
 • The universal synchronous and asynchronous serial receiver and transmitter (USART) is a highly
 flexible serial communication device.
+
 • The USART0 can also be used in master SPI mode
+
 • The three main parts of the USART (listed from the top): Clock generator, transmitter and receiver.
+
 Control registers are shared by all units. The clock generation logic consists of synchronization logic
 for external clock input used by synchronous slave operation, and the baud rate generator. The XCKn
 (transfer clock) pin is only used by synchronous transfer mode. The transmitter consists of a single
