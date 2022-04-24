@@ -3,7 +3,7 @@ Components Required In Proteus:
 • ATMega328P
 • UART Module
 • Servo Motor
-Introduction:
+# Introduction:
 The Atmel® ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR® enhanced
 RISC architecture. By executing powerful instructions in a single clock cycle, the ATmega328P
 achieves throughputs approaching 1MIPS per MHz allowing the system designer to optimize power
@@ -12,17 +12,17 @@ a Harvard architecture – with separate memories and buses for program and data
 program memory are executed with a single level pipelining. While one instruction is being executed,
 the next instruction is pre-fetched from the program memory. This concept enables instructions to be
 executed in every clock cycle. The program memory is in-system reprogrammable flash memory
-TIMER1:
+# TIMER1:
 The 16-bit Timer/Counter unit allows accurate program execution timing (event management), wave generation, and signal
 timing measurement.
-Features:
+# Features:
 • True 16-bit design (i.e., allows 16-bit PWM)
 • Two independent output compare units
 • Double buffered output compare registers
-TIMER0:
+# TIMER0:
 Timer/Counter0 is a general purpose 8-bit Timer/Counter module, with two independent output compare units, and with
 PWM support. It allows accurate program execution timing (event management) and wave generation.
-UART:
+# UART:
 • The universal synchronous and asynchronous serial receiver and transmitter (USART) is a highly
 flexible serial communication device.
 • The USART0 can also be used in master SPI mode
