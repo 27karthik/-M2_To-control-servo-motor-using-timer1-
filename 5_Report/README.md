@@ -11,7 +11,9 @@ executed in every clock cycle. The program memory is in-system reprogrammable fl
 To control Servo Motor Using Timer1 PWM technique and UART interface.
 # COMPONENTS:
 • ATMega328P
+
 • UART Module
+
 • Servo Motor.
 # DESCRIPTION:
 Microchip's ATmega328 is an 8-bit, 28-pin AVR Microcontroller that uses RISC architecture and includes a 32KB flash-type programme memory.
