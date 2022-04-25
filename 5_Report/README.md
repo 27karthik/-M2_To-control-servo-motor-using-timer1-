@@ -26,6 +26,13 @@ Cost-effectiveness, low power consumption, programming lock for security, and tr
 
 It's most commonly found in Embedded Systems. Take a look at these Real-Life Embedded System Examples; we can design all of them with this Microcontroller.
 # DESCRIPTION:
+# ATMEGA328:
+Microchip's ATmega328 is an 8-bit, 28-pin AVR Microcontroller that uses RISC architecture and includes a 32KB flash-type programme memory.
+The Atmega328 microcontroller is found in the Arduino UNO, Arduino Pro Mini, and Arduino Nano boards.
+It can function at voltages ranging from 3.3 to 5.5 volts, but we usually choose 5 volts as a standard.
+Cost-effectiveness, low power consumption, programming lock for security, and true timer counter with independent oscillator are only a few of its outstanding qualities.
+It's most commonly found in Embedded Systems. Take a look at these Real-Life Embedded System Examples; we can design all of them with this Microcontroller.
+![image](https://user-images.githubusercontent.com/102902139/165009255-8718ee86-1911-453e-b7b4-367a57d7f7fd.png)
 Timer-1 is configured as PWM to control the servo motor. Timer-1 is configured using TOV1,
 OCF1A, OCF1B, and ICF1. UART is interfaced with ATmega 232P to control servo motor using
 PWM.
