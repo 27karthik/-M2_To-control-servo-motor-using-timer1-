@@ -45,5 +45,15 @@ recovery units are used for asynchronous data reception. In addition to the reco
 includes a parity checker, control logic, a shift register and a two level receive buffer (UDRn). The
 receiver supports the same frame formats as the transmitter, and can detect frame error, data overrun
 and parity errors.
+# ATMEGA328:
+Microchip's ATmega328 is an 8-bit, 28-pin AVR Microcontroller that uses RISC architecture and includes a 32KB flash-type programme memory.
+
+The Atmega328 microcontroller is found in the Arduino UNO, Arduino Pro Mini, and Arduino Nano boards.
+
+It can function at voltages ranging from 3.3 to 5.5 volts, but we usually choose 5 volts as a standard.
+
+Cost-effectiveness, low power consumption, programming lock for security, and true timer counter with independent oscillator are only a few of its outstanding qualities.
+
+It's most commonly found in Embedded Systems. Take a look at these Real-Life Embedded System Examples; we can design all of them with this Microcontroller.
 
 
